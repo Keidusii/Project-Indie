@@ -1,0 +1,48 @@
+body { 
+    padding-top: 65px;
+    background-color: #696969;
+}
+
+.middle {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#searchBar, #searchButton {
+    position: relative;
+    left: 45%;
+}
+.card {
+    width: 150%;
+    padding: 10px;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+  
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 17px;
+    padding: 20px;
+    text-align: center;
+}
+
+.image:hover .overlay {
+    opacity: 1;
+}
